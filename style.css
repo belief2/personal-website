@@ -158,3 +158,14 @@ footer {
     width: 300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.contactus {display: flex; justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form { display: flex; flex-direction: column; justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 80px;
+
+}
