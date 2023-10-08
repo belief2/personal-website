@@ -9,25 +9,41 @@
 
     <title>My Personal Website</title>
 
-¡
+    ¡
 </head>
 
 <body>
 
     <nav>
         <ul>
-            <li> <h1> Mary Otero </h1> </li>
+            <li>
+                <h1> Mary Otero </h1>
+            </li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            
+            <li><a href="contact.html">Contact</a></li>
 
         </ul>
     </nav>
 
-    <div>
-        CONTACT FORM WILL BE HERE 
-    </div>
+ 
+        <h2 class="contactus">Contact Us</h2>
+
+        <form action="mailto:marielyn.otero@gmail.com" method="post" class="form">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="15" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
 </body>
 <footer>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
